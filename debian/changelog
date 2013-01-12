@@ -1,0 +1,152 @@
+qt-components-ubuntu (0.1.24) quantal; urgency=low
+
+  * New release 
+
+ -- Tim Peeters <tim.peeters@canonical.com>  Fri, 21 Dec 2012 10:37:23 +0100
+
+qt-components-ubuntu (0.1.23) quantal; urgency=low
+
+  * New release 
+
+ -- Tim Peeters <tim.peeters@canonical.com>  Mon, 17 Dec 2012 21:29:03 +0100
+
+qt-components-ubuntu (0.1.22) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Fri, 14 Dec 2012 18:19:54 +0000
+
+qt-components-ubuntu (0.1.21) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Tue, 11 Dec 2012 20:45:49 +0000
+
+qt-components-ubuntu (0.1.20) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Mon, 10 Dec 2012 18:44:27 +0000
+
+qt-components-ubuntu (0.1.19) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Fri, 07 Dec 2012 18:42:25 +0000
+
+qt-components-ubuntu (0.1.18) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Thu, 06 Dec 2012 17:57:34 +0000
+
+qt-components-ubuntu (0.1.17) quantal; urgency=low
+
+  * New release 
+
+ -- Tim Peeters <tim.peeters@canonical.com>  Thu, 06 Dec 2012 15:49:25 +0000
+
+qt-components-ubuntu (0.1.16) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Sat, 01 Dec 2012 01:22:43 +0000
+
+qt-components-ubuntu (0.1.15) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Fri, 30 Nov 2012 00:38:31 +0000
+
+qt-components-ubuntu (0.1.14) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Wed, 28 Nov 2012 20:28:17 +0000
+
+qt-components-ubuntu (0.1.13) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Mon, 26 Nov 2012 18:07:06 +0000
+
+qt-components-ubuntu (0.1.12) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Fri, 23 Nov 2012 18:38:58 +0000
+
+qt-components-ubuntu (0.1.11) quantal; urgency=low
+
+  * Daily release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Thu, 22 Nov 2012 09:34:17 +0000
+
+qt-components-ubuntu (0.1.10) quantal; urgency=low
+
+  * Daily release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Wed, 21 Nov 2012 23:54:28 +0000
+
+qt-components-ubuntu (0.1.9) quantal; urgency=low
+
+  * Daily release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Wed, 21 Nov 2012 14:33:06 +0000
+
+qt-components-ubuntu (0.1.8) quantal; urgency=low
+
+  * Daily release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Wed, 21 Nov 2012 13:14:07 +0000
+
+qt-components-ubuntu (0.1.7) quantal; urgency=low
+
+  * New release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Wed, 21 Nov 2012 01:02:57 +0000
+
+qt-components-ubuntu (0.1.6) quantal; urgency=low
+
+  * Daily release
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Tue, 20 Nov 2012 17:43:40 +0000
+
+qt-components-ubuntu (0.1.5) quantal; urgency=low
+
+  * Add qt-components-ubuntu-doc package containing HTML generated documentation
+  * Move demos from usr/lib/ubuntu-demos/uitk/demos to usr/lib/qt-components-ubuntu/demos
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Thu, 01 Nov 2012 10:35:21 +0100
+
+qt-components-ubuntu (0.1.4) quantal; urgency=low
+
+  * Version bump
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Tue, 16 Oct 2012 19:49:26 +0000
+
+qt-components-ubuntu (0.1.3) quantal; urgency=low
+
+  * Rebuild for armhf
+
+ -- Ricardo Mendoza <ricardo.mendoza@canonical.com>  Thu, 11 Oct 2012 14:42:20 -0430
+
+qt-components-ubuntu (0.1.2) quantal; urgency=low
+
+  * Bump version number
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Thu, 11 Oct 2012 18:25:40 +0100
+
+qt-components-ubuntu (0.1.1) quantal; urgency=low
+
+  * Ported to Qt 5.0 and QtQuick 2.0.
+  * Install QML plugin in usr/lib/*/qt5/imports 
+  * Prepend /opt/qt5/bin to PATH so that Qt5's qmake is used instead of Qt4's
+
+ -- Florian Boucault <florian.boucault@canonical.com>  Wed, 03 Oct 2012 12:08:21 +0100
+
+qt-components-ubuntu (0.1) unstable; urgency=low
+
+  * Initial release
+
+ -- Juhapekka Piiroinen <juhapekka.piiroinen@canonical.com>  Wed, 01 Aug 2012 11:39:58 -0400
