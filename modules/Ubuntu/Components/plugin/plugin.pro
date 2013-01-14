@@ -1,9 +1,14 @@
 include( ../../../../common.pri )
 
-unix {
-    CONFIG += link_pkgconfig
-    PKGCONFIG += gio-2.0
-}
+# FIXME: for some strange reason, pkg-config does not works on OS X and
+# fails with error message : Project ERROR: Package gio-2.0 not found
+# although it works properly when running it from command line
+#unix {
+#    CONFIG += link_pkgconfig
+#    PKGCONFIG += gio-2.0
+#}
+QMAKE_CXXFLAGS += $$system(pkg-config --cflags gio-2.0)
+LIBS += $$system(pkg-config --libs gio-2.0)
 
 TEMPLATE = lib
 TARGET = ../UbuntuComponents

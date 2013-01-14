@@ -15,5 +15,5 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-export PATH=$PATH:/opt/qt5/bin
+export PATH=$PATH:$QT5
 qdoc ubuntu-sdk.qdocconf
