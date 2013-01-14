@@ -13,8 +13,7 @@ isEmpty(QMAKE_CXX) {
 }
 
 QMAKE_LINK = $$QMAKE_CXX
-QMAKE_CXXFLAGS = -std=c++11
+QMAKE_CXXFLAGS = -std=c++11 -DINSTALL_PREFIX=\\\"$$PREFIX\\\"
 LIBS += -lstdc++
 
-message("CC : $$QMAKE_CXX")
 include( coverage.pri )

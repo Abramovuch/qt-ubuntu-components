@@ -29,6 +29,10 @@
 
 #include <QDebug>
 
+#ifndef INSTALL_PREFIX
+#define INSTALL_PREFIX /usr/local
+#endif
+
 class QQuickItem;
 class QQmlComponent;
 class ThemeLoader;
@@ -83,7 +87,8 @@ public:
 inline QString themeFolder()
 {
     QString env = QLatin1String(getenv("UITK_THEME_PATH"));
-    env = env.isEmpty() ? QString("/usr/share/themes") : env + "/themes";
+    env = env.isEmpty() ? QString(INSTALL_PREFIX) + QString("/share/themes") : env + "/themes";
+
     return env;
 }
 
